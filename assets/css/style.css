@@ -1,137 +1,6 @@
 
 /*=====================TAG DESIGNS START HERE==========================*/
 
-/* Responsiveness is set here*/
-@media screen and (min-width: 769px) and (max-width: 5000px)
-{
-
-
-/*	All divs inside this class will have format set below*/
-	.main-container
-	{
-
-		border-style: none;
-		text-align: center;
-		margin-left: 10%;
-		margin-right: 10%;
-		margin-top: 120px;
-		margin-bottom: 20px;
-		max-width: 80%;
-		min-height: 790px;
-		overflow: auto;
-
-
-	}
-
-
-/*	Content shadow borders are set below*/
-	.content
-	{
-		width: 85%;
-		min-height: 250px;
-		margin: auto;
-		margin-bottom: 10px;
-		margin-top: 5px;
-		box-shadow: 6px 6px 8px 2px rgba(0,0,0,0.2), -6px 6px 8px 2px rgba(0,0,0,0.19);
-		text-align: center;
-		vertical-align: middle; 
-
-	}
-
-/*	header class margins are set here */
-.header
-{
-	margin-left: 15%;
-	margin-right: 15%;	
-	float: right;
-	margin-top: 25px;
-}
-
-}
-
-@media screen and (max-width: 768px) 
-{
-	.main-container
-	{
-
-	border-style: none;
-	text-align: center;
-	margin-left: 0%;
-	margin-right: 0%;
-	margin-top: 120px;
-	margin-bottom: 20px;
-	max-width: 100%;
-	min-height: 100%;
-	overflow: auto;
-	}
-
-	.content
-	{
-		width: 85%;
-		margin: auto;
-		margin-bottom: 20px;
-		margin-top: 0%;
-		box-shadow: 6px 6px 8px 2px rgba(0,0,0,0.2), -6px 6px 8px 2px rgba(0,0,0,0.19);
-		vertical-align: middle; 
-
-	}
-
-/*	header class margins are set here */
-	.header
-	{
-		margin-left: 15%;
-		margin-right: 15%;	
-		text-align: center; 
-		line-height: 150%;
-		height: 40%;
-	}
-
-}
-
-
-@media screen and (max-width: 640px) 
-{
-	.main-container
-	{
-	min-width: 240px;
-	border-style: none;
-	text-align: center;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 120px;
-	margin-bottom: 20px;
-	max-width: 100%;
-	min-height: 100%;
-	overflow: auto;
-	}
-
-	.content
-	{
-		width: 100%;
-		margin: 0px;
-		vertical-align: middle; 
-
-	}
-/*	header class margins are set here */
-	.header
-	{
-		margin-left: 15%;
-		margin-right: 15%;	
-		margin-top: 25px;
-		font-size: 10px;
-		text-align: center; 
-		height: 40%;
-	}
-	.headerh2
-	{
-		font-size: 30px;
-		vertical-align: middle; 
-		height: 50%;
-	}
-
-}
-
-
 
 /* This line will make all box like elements to keep the given size even if margins or paddings are added	*/
 *{
@@ -404,6 +273,137 @@ textarea
 	overflow: scroll;
 }
 
+
+
+/* Responsiveness is set here*/
+@media screen and (min-width: 769px) and (max-width: 5000px)
+{
+
+
+/*	All divs inside this class will have format set below*/
+	.main-container
+	{
+
+		border-style: none;
+		text-align: center;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 120px;
+		margin-bottom: 20px;
+		max-width: 80%;
+		min-height: 790px;
+		overflow: auto;
+
+
+	}
+
+
+/*	Content shadow borders are set below*/
+	.content
+	{
+		width: 85%;
+		min-height: 250px;
+		margin: auto;
+		margin-bottom: 10px;
+		margin-top: 5px;
+		box-shadow: 6px 6px 8px 2px rgba(0,0,0,0.2), -6px 6px 8px 2px rgba(0,0,0,0.19);
+		text-align: center;
+		vertical-align: middle; 
+
+	}
+
+/*	header class margins are set here */
+.header
+{
+	margin-left: 15%;
+	margin-right: 15%;	
+	float: right;
+	margin-top: 25px;
+}
+
+}
+
+@media screen and (max-width: 768px) 
+{
+	.main-container
+	{
+
+	border-style: none;
+	text-align: center;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 120px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	min-height: 100%;
+	overflow: auto;
+	}
+
+	.content
+	{
+		width: 85%;
+		margin: auto;
+		margin-bottom: 20px;
+		margin-top: 0%;
+		box-shadow: 6px 6px 8px 2px rgba(0,0,0,0.2), -6px 6px 8px 2px rgba(0,0,0,0.19);
+		vertical-align: middle; 
+
+	}
+
+/*	header class margins are set here */
+	.header
+	{
+		margin-left: 15%;
+		margin-right: 15%;	
+		text-align: center; 
+		line-height: 150%;
+		height: 40%;
+	}
+
+}
+
+
+@media screen and (max-width: 640px) 
+{
+	.main-container
+	{
+	min-width: 240px;
+	border-style: none;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 120px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	min-height: 100%;
+	overflow: auto;
+	}
+
+	.content
+	{
+		width: 100%;
+		margin: 0px;
+		vertical-align: middle; 
+
+	}
+/*	header class margins are set here */
+	.header
+	{
+		margin-left: 15%;
+		margin-right: 15%;	
+		margin-top: 25px;
+		font-size: 10px;
+		text-align: center; 
+		height: 40%;
+	}
+	.headerh2
+	{
+		font-size: 30px;
+		vertical-align: middle; 
+		height: 50%;
+	}
+
+}
 
 
 
